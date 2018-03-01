@@ -57,6 +57,14 @@ config GINNA_DTB
           Only include Ginna specific DTBs to limit the number that
           get built during kernel compilation.
 
+config DEEN_DTB
+        depends on ARCH_MSM
+        default n
+        bool "Deen DTBs"
+        help
+          Only include Deen specific DTBs to limit the number that
+          get built during kernel compilation.
+
 config QCOM_CPUSS_DUMP
 	bool "CPU Subsystem Dumping support"
 	help
