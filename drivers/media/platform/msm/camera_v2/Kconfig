@@ -281,3 +281,8 @@ config MSM_CAMERA_CCI_MUTEX
 	---help---
 		Enables cci mutext protection
 
+config MULTI_CAMERA_DEEN
+	bool "Enable MULTI_CAMERA_DEEN"
+	default n
+	---help---
+		Enable support for the MULTI camera
